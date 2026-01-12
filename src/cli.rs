@@ -614,8 +614,7 @@ pub fn handle_cli_screen_command(command: &ScreenCommands) {
 }
 
 pub fn handle_cli_playlist_command(command: &PlaylistCommands) {
-    let playlist_command =
-        PlaylistCommand::new(get_authentication());
+    let playlist_command = PlaylistCommand::new(get_authentication());
     match command {
         PlaylistCommands::Create {
             json,
