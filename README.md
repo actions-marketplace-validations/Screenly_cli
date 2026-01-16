@@ -162,7 +162,7 @@ This project follows [Semantic Versioning](https://semver.org/) (M.m.p = Major.m
 1. **Prepare the release:**
   - Create a release branch (e.g., `release-M.m.p`, like `release-1.0.6`).
   - Update the version in `Cargo.toml`, `action.yml`, and `Dockerfile`
-  - Run `cargo build` to update `Cargo.lock` with the new version (optional but recommended)
+  - Run `cargo build` to update `Cargo.lock` with the new version
 
 2. **Create and merge the pull request:**
   - Create a pull request from the release branch to `master`
